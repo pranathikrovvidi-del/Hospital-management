@@ -1,0 +1,6 @@
+{
+  "name": "MediCare HMS",
+  "description": "Comprehensive Hospital Management System featuring Doctor Dashboard, Live Patient Consultations, Patient Registration, Appointment Scheduling, Records, and Ward Capacity tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

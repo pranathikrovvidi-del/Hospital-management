@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #1A1A1A;
+    --primary-container: #2C2C2C;
+    --on-primary: #F8F7F3;
+    --secondary: #2C4A3E;
+    --secondary-container: #E2ECE7;
+    --on-secondary-container: #173228;
+    --background: #F8F7F3;
+    --surface: #F8F7F3;
+    --surface-lowest: #FFFFFF;
+    --surface-low: #F3F2EC;
+    --surface-container: #EBE8E0;
+    --surface-high: #E2DFD6;
+    --outline: #7A7974;
+    --outline-variant: #D8D5CC;
+    --error: #8B2C2C;
+    --error-container: #F9EBEA;
+    --on-error-container: #5E1B1B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F8F7F3;
+    color: #1A1A1A;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+.font-editorial-serif {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-editorial-sub {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 350, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 350, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Editorial Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1CFCA;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9E9C96;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #D1CFCA;
+  border-radius: 2px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
